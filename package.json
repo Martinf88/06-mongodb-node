@@ -1,0 +1,20 @@
+{
+  "name": "06-mongodb-node",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node --env-file .env dist/getFirst.js "
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "mongodb": "^6.9.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.5.5",
+    "@types/typescript": "^2.0.0"
+  }
+}
